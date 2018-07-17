@@ -7,9 +7,19 @@ import java.util.NoSuchElementException;
  * @version 1.0
  */
 public class EbadiradDeque<T> implements Deque<T> {
+
+
+
+
+
+
+    //front of the dequeue
     private Node<T> front;
+    //back of the dequeue.
     private Node<T> back;
+    //size of the dequeue.
     private int size;
+
     public EbadiradDeque(){
         front = null;
         back = null;
@@ -158,7 +168,7 @@ public class EbadiradDeque<T> implements Deque<T> {
                     break;
                 }
                 else{
-                    temp = temp.getNext();
+                    temp = temp.getPrev();
                     tempBack = tempBack.getNext();
                 }
             }
@@ -197,10 +207,17 @@ public class EbadiradDeque<T> implements Deque<T> {
     @Override
     public String toString() {
         String printed = "empty";
-        
+        if(size > 0){
+           printed = "";
+           Node<T> temp = back;
+           while(temp != null){
+               printed += temp.getElement().toString() + " ";
+               temp = temp.getNext();
+           }
+        }
 
 
-        return printed;
+        return printed.trim();
 
 
     }

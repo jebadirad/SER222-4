@@ -1,13 +1,13 @@
 /**
  * This program provides an implementation of the Deque interface
- * and demonstrates it.
+ * and demonstrates it. I just copied the code from my implementation into this
+ * class in order to get it to compile. 
  *
  * @author JonDavid Ebadirad, Acuna
  * @version 1.0
  */
 import java.util.NoSuchElementException;
 
-//TODO: implement.
 public class BaseDeque<Item> implements Deque<Item> {
     private Node<Item> front;
     private Node<Item> back;
@@ -54,10 +54,13 @@ public class BaseDeque<Item> implements Deque<Item> {
     @Override
     public void enqueueFront(Item element) {
         Node<Item> temp = front;
-        front = new Node<Item>(element);
-        front.setNext(temp);
+        Node<Item> newEl = new Node<Item>(element);
+        front = newEl;
+        newEl.setPrev(temp);
         if(null != temp){
             temp.setNext(front);
+        }else{
+            back = newEl;
         }
         size ++;
     }
@@ -70,10 +73,13 @@ public class BaseDeque<Item> implements Deque<Item> {
     @Override
     public void enqueueBack(Item element) {
         Node<Item> temp = back;
-        back = new Node<Item>(element);
-        back.setNext(temp);
+        Node<Item> newEl = new Node<Item>(element);
+        back = newEl;
+        newEl.setNext(temp);
         if(null != temp){
-            temp.setNext(back);
+            temp.setPrev(newEl);
+        }else{
+            front = newEl;
         }
         size ++;
     }
@@ -91,7 +97,11 @@ public class BaseDeque<Item> implements Deque<Item> {
             throw new NoSuchElementException("Deque is empty");
         }else{
             Node<Item> temp = front;
-            front = front.getNext();
+            front = front.getPrev();
+            if(null != front){
+                front.setNext(null);
+            }
+            size --;
             return temp.getElement();
         }
 
@@ -111,6 +121,10 @@ public class BaseDeque<Item> implements Deque<Item> {
         }else{
             Node<Item> temp = back;
             back = back.getNext();
+            if(null != back){
+                back.setPrev(null);
+            }
+            size --;
             return temp.getElement();
         }
     }
@@ -169,7 +183,7 @@ public class BaseDeque<Item> implements Deque<Item> {
                     break;
                 }
                 else{
-                    temp = temp.getNext();
+                    temp = temp.getPrev();
                     tempBack = tempBack.getNext();
                 }
             }
@@ -211,14 +225,14 @@ public class BaseDeque<Item> implements Deque<Item> {
         if(size > 0){
             printed = "";
             Node<Item> temp = back;
-            while(temp.getNext() != null){
-                printed += back.getElement().toString() + " ";
+            while(temp != null){
+                printed += temp.getElement().toString() + " ";
                 temp = temp.getNext();
             }
         }
 
 
-        return printed;
+        return printed.trim();
 
 
     }
