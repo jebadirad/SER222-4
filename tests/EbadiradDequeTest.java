@@ -268,5 +268,23 @@ public class EbadiradDequeTest {
         testDeque.enqueueFront(7);
         assertEquals("6 4 3 2 1 0 1 5 7" , testDeque.toString());
     }
+
+    @org.junit.Test
+    public void frontToBack(){
+        testDeque.enqueueFront(0);
+        testDeque.enqueueBack(1);
+        testDeque.enqueueFront(2);
+        testDeque.enqueueBack(3);
+        testDeque.enqueueFront(4);
+        testDeque.enqueueBack(5);
+        //4 2 0 1 3 5
+        String result = "4 2 0 1 3 5";
+        String frontToBack = "";
+        while(testDeque.size() > 0){
+            frontToBack += testDeque.dequeueFront().toString() + " ";
+        }
+        frontToBack = frontToBack.trim();
+        assertEquals(result, frontToBack);
+    }
    
 }

@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SER222_4$EbadiradDequeTest.ic" NAME="EbadiradDequeTest Coverage Results" MODIFIED="1531802849224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SER222_4$EbadiradDequeTest.ic" NAME="EbadiradDequeTest Coverage Results" MODIFIED="1531892494691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SER222_4$EbadiradDequeTest_enqueueBack.ic" NAME="EbadiradDequeTest.enqueueBack Coverage Results" MODIFIED="1531799072929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
@@ -27,16 +27,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BaseDeque.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BaseDeque.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BaseDeque.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1309">
-                  <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+                  <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#459#468#0" expanded="true" />
-                    <element signature="e#1752#1758#0" expanded="true" />
-                    <element signature="e#2225#2231#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -46,26 +43,20 @@
             <entry file="file://$PROJECT_DIR$/src/Node.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="153">
-                  <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                   <folding>
-                    <element signature="e#315#316#0" expanded="true" />
-                    <element signature="e#339#340#0" expanded="true" />
-                    <element signature="e#370#371#0" expanded="true" />
-                    <element signature="e#403#404#0" expanded="true" />
-                    <element signature="e#514#515#0" expanded="true" />
-                    <element signature="e#542#543#0" expanded="true" />
+                    <element signature="e#547#548#0" expanded="true" />
                     <element signature="e#575#576#0" expanded="true" />
-                    <element signature="e#606#607#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EbadiradDeque.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="EbadiradDeque.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/EbadiradDeque.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-357">
-                  <caret line="156" column="40" lean-forward="true" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+                <state relative-caret-position="205">
+                  <caret line="121" column="73" lean-forward="true" selection-start-line="121" selection-start-column="73" selection-end-line="121" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -73,32 +64,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="EbadiradDequeTest.java" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="EbadiradDequeTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/EbadiradDequeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4590">
-                  <caret line="270" column="3" selection-start-line="270" selection-start-column="3" selection-end-line="270" selection-end-column="3" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#284#293#0" expanded="true" />
-                    <element signature="e#5112#5113#0" expanded="true" />
-                    <element signature="e#5145#5146#0" expanded="true" />
-                    <element signature="e#5662#5663#0" expanded="true" />
-                    <element signature="e#5694#5695#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EbadiradDequeueMain.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="EbadiradDequeueMain.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/EbadiradDequeueMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
-                  <caret line="53" selection-start-line="53" selection-end-line="53" />
-                  <folding>
-                    <element signature="e#134#143#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="136">
+                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -136,14 +119,14 @@
         <option value="$PROJECT_DIR$/src/BaseDeque.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/EbadiradDeque.java" />
-        <option value="$PROJECT_DIR$/tests/EbadiradDequeTest.java" />
         <option value="$PROJECT_DIR$/src/EbadiradDequeueMain.java" />
+        <option value="$PROJECT_DIR$/tests/EbadiradDequeTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="98" />
-    <option name="y" value="37" />
+    <option name="x" value="1912" />
+    <option name="y" value="22" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -153,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +157,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -215,11 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EbadiradDequeueMain">
-    <configuration name="BaseDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaseDeque" />
-      <module name="SER222-4" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.EbadiradDequeTest">
     <configuration name="EbadiradDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EbadiradDeque" />
       <module name="SER222-4" />
@@ -245,13 +224,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EbadiradDequeTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EbadiradDequeTest.enqueueMix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SER222-4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EbadiradDequeTest" />
-      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="METHOD_NAME" value="enqueueMix" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EbadiradDequeTest.frontToBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SER222-4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EbadiradDequeTest" />
+      <option name="METHOD_NAME" value="frontToBack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -264,18 +260,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.EbadiradDequeTest" />
-      <item itemvalue="JUnit.EbadiradDequeTest.toStringTest" />
-      <item itemvalue="Application.BaseDeque" />
       <item itemvalue="Application.EbadiradDeque" />
       <item itemvalue="Application.EbadiradDequeueMain" />
+      <item itemvalue="JUnit.EbadiradDequeTest.enqueueMix" />
+      <item itemvalue="JUnit.EbadiradDequeTest.frontToBack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EbadiradDequeueMain" />
         <item itemvalue="JUnit.EbadiradDequeTest" />
+        <item itemvalue="JUnit.EbadiradDequeTest.frontToBack" />
+        <item itemvalue="Application.EbadiradDequeueMain" />
+        <item itemvalue="JUnit.EbadiradDequeTest.enqueueMix" />
         <item itemvalue="Application.EbadiradDeque" />
-        <item itemvalue="Application.BaseDeque" />
-        <item itemvalue="JUnit.EbadiradDequeTest.toStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,27 +289,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 15m 06s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 15m 42s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 16m 20s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 16m 38s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 16m 59s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest_toStringTest - 2018.07.16 at 21h 17m 49s.xml">
-      <configuration name="EbadiradDequeTest.toStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbadiradDequeTest - 2018.07.16 at 21h 17m 59s.xml">
-      <configuration name="EbadiradDequeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EbadiradDequeTest - 2018.07.16 at 21h 18m 02s.xml">
       <configuration name="EbadiradDequeTest" configurationId="JUnit" />
     </history-entry>
@@ -323,33 +298,53 @@
     <history-entry file="EbadiradDequeTest - 2018.07.16 at 21h 47m 30s.xml">
       <configuration name="EbadiradDequeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EbadiradDequeTest_enqueueMix - 2018.07.17 at 22h 24m 22s.xml">
+      <configuration name="EbadiradDequeTest.enqueueMix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest - 2018.07.17 at 22h 31m 02s.xml">
+      <configuration name="EbadiradDequeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest_frontToBack - 2018.07.17 at 22h 39m 45s.xml">
+      <configuration name="EbadiradDequeTest.frontToBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest_frontToBack - 2018.07.17 at 22h 39m 59s.xml">
+      <configuration name="EbadiradDequeTest.frontToBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest_frontToBack - 2018.07.17 at 22h 40m 50s.xml">
+      <configuration name="EbadiradDequeTest.frontToBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest_frontToBack - 2018.07.17 at 22h 41m 29s.xml">
+      <configuration name="EbadiradDequeTest.frontToBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbadiradDequeTest - 2018.07.17 at 22h 41m 35s.xml">
+      <configuration name="EbadiradDequeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Messages" weight="0.32947367" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.32947367" />
-      <window_info anchor="right" x="2173" y="314" width="513" height="637" id="Coverage" side_tool="true" type="FLOATING" visible="true" weight="0.2671875" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.10572917" />
-      <window_info anchor="bottom" id="Find" weight="0.32947367" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" weight="0.5452632" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="TODO" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32947367" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.24210526" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="right" x="2335" y="416" width="513" height="637" id="Coverage" order="0" side_tool="true" type="FLOATING" weight="0.2671875" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10572917" />
+      <window_info id="Structure" order="0" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="0" />
+      <window_info id="UI Designer" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="bottom" id="Debug" order="0" weight="0.24421053" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.32947367" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -394,12 +389,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EbadiradDeque.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/EbadiradDequeTest.java</url>
           <line>110</line>
           <properties />
@@ -411,8 +400,14 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/EbadiradDequeTest.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -422,6 +417,58 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EbadiradDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/EbadiradDequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4505">
+          <caret line="270" column="3" selection-start-line="270" selection-start-column="3" selection-end-line="270" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EbadiradDequeueMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -457,64 +504,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#459#468#0" expanded="true" />
-            <element signature="e#1752#1758#0" expanded="true" />
-            <element signature="e#2225#2231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/EbadiradDequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="270" column="3" selection-start-line="270" selection-start-column="3" selection-end-line="270" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#293#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-            <element signature="e#5145#5146#0" expanded="true" />
-            <element signature="e#5662#5663#0" expanded="true" />
-            <element signature="e#5694#5695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EbadiradDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="156" column="40" lean-forward="true" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+        <state relative-caret-position="205">
+          <caret line="121" column="73" lean-forward="true" selection-start-line="121" selection-start-column="73" selection-end-line="121" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EbadiradDequeueMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/EbadiradDequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#134#143#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
